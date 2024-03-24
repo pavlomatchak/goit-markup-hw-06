@@ -480,6 +480,8 @@ body {
   position: absolute;
   right: 24px;
   top: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 24px;
 }
 
@@ -497,6 +499,7 @@ body {
 .modal .close svg,
 .mobile-nav .close svg {
   height: 100%;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
 }
 
@@ -507,6 +510,7 @@ body {
 
 .modal .title {
   color: var(--theme-main);
+  font-weight: 500;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -696,6 +700,7 @@ input[type="checkbox"]:checked + .checkbox-label:after {
   line-height: 1.5;
   letter-spacing: 0.64px;
   padding: 16px 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 169px;
 }
 
